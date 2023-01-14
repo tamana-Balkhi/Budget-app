@@ -25,9 +25,8 @@
 
 # 📖 [MY BUDGET] <a name="about-project"></a>
 
-> This project creates a fully functional blog app website that shows the list of posts and encourage readers to interact with them by adding comments and liking posts. Made with Ruby on Rails
-
-**[MY BUDGET]** is a mobile application for sharing lessons and experiences on coding with Ruby on Rails!
+> This app is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
+**[MY BUDGET]** is a mobile application  coding with Ruby on Rails!
 
 ## 🛠 Built With <a name="built-with"></a>
 
