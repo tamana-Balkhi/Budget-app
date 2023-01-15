@@ -10,7 +10,6 @@ RSpec.describe User, type: :model do
       expect(subject).to be_valid
     end
 
-
     it 'email should return a string' do
       expect(subject.email).to be_a_kind_of(String)
     end
