@@ -1,6 +1,6 @@
 databases:
   - name: MyBudget
-    databaseName: budget_db 
+    databaseName: budget_app 
     user: mybudget_owner
 
 services:
