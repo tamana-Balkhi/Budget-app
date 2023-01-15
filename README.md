@@ -32,19 +32,17 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
   </ul>
 </details>
 
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="https://rubyonrails.org/">Rails</a></li>
   </ul>
 </details>
 
@@ -59,59 +57,75 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[Posting user-created content to the  blog-app for sharing experiences and lessons]**
-- **[Commenting to discuss and share information on each post]**
-- **[Liking to show appreciation for the author]**
+- **Posting Recipes** to share public and private user-created recipes
+- **Shopping** to trade plates
+- **Display** preparation and cooking time
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
+## 🚀 video <a name="live-demo"></a>
 
-## 🚀 Live Demo <a name="live-demo">comming soon.....</a>
 
-> Add a link to your deployed project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+ [video](https://www.loom.com/share/3c1946d1a1af4810bba9f8cea160a331)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+### Prerequisites
+
+#### Check your Ruby version or install it
+
+```shell
+ruby --version && irb
+```
+
+The ouput should start with something like `ruby 3.1.2`
+
+If not, install the right ruby version using [rbenv](https://github.com/rbenv/rbenv) (it could take a while):
+
+```shell
+rbenv install 3.1.2
+```
 
 To get a local copy up and running, follow these steps.
 
-### Prerequisites
+### Clone the repository
 
-In order to run this project you need:
-
-Check your Ruby version or install it:
-
-```sh
- ruby --version
-```
-
-### Setup
-
-Clone this repository to your desired folder:
-
-```sh
-  git clone https://github.com/tamana-Balkhi/
-  
-  cd blog-app
+```shell
+git clone https://github.com/tamana-Balkhi/Budget-app.git
+cd blog-app-ror
 ```
 
 ### Install
-- Run ``` bundle install ```
-- Run ``` rails server ```
-- Open Browser ``` http://localhost:3000/ ```
-- Ensure you have PostgreSQL installed before running the application ``` psql --version ```
-- Run rails ``` db:create ```
 
+- Ensure you have PostgreSQL installed before running the application `psql --version`
+- Run `bundle install`
+- Create a `.env` file in the project's root folder to assign variable values for the psql database (linked to the config/database.yml)
+- Run `rails db:create` and then `rails db:migrate`
+- Run `rails server`
+- Open Browser `http://localhost:3000/`
+
+#### .env File Structure
+
+This is the intended file content for the `.env` file:
+
+```
+# ./env
+POSTGRES_HOST='localhost'
+POSTGRES_USER='postgres'
+# If you declared a password when creating the database:
+POSTGRES_PASSWORD='a'
+
+# POSTGRES_HOST='localhost'
+# dbs
+POSTGRES_DEV_DB='budget_app'
+POSTGRES_TEST_DB='budget_app_test'
+POSTGRES_PROD_DB='budget_app_prod'
+# 
+
+Replacing the variable values where needed (most importantly `username` and `password`)
 
 ### Usage
 
@@ -121,48 +135,30 @@ To run the project, execute the following command:
   rails server
 ```
 
+### Testing
 
-### Run tests
+To test and utilize the code, use the terminal and run ruby by inputting `irb` in the command line, or by using an extension in Visual Studio Code like _Code runner_
 
-To run tests, run the following command:
-
-```sh
-  run rspec
-```
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
+The user then can modify and play with the files as needed
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
-
 ## 👥 Authors <a name="authors"></a>
+
+👤 **Tamana Balkhi**
 
 - GitHub: [@tamana-Balkhi](https://github.com/tamana-Balkhi)
 - LinkedIn: [Tamana Balkhi](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
-
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[Views and Forms]**
+- **Validations and Model specs**
+- **Setup and controllers**
+- **Views and Forms**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -172,48 +168,24 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
-
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+Give a ⭐️ if you like this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
+- Hat tip to anyone whose code was used
+- Inspiration
+- To all the collaborators for the Readme Template
+- The Microverse Team
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](./LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
