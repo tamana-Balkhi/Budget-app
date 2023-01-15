@@ -10,9 +10,9 @@ gem 'rails', '~> 7.0.4'
 gem 'sprockets-rails'
 
 # Use postgresql as the database for Active Record
+gem 'dotenv-rails'
 gem 'pg', '~> 1.1'
 gem 'rubocop', '>= 1.0', '< 2.0'
-gem 'dotenv-rails'
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem 'cancancan', '~> 1.9'
