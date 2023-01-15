@@ -148,8 +148,6 @@ form {
   height: 45px;
 }
 
-
-
 #groups a p:first-child {
   font-size: x-large;
 }
@@ -220,7 +218,6 @@ header form {
   display: flex;
   flex-direction: column;
   text-align: center;
-  
 }
 
 #group-list label {
@@ -231,4 +228,3 @@ header form {
 .red {
   color: red;
 }
-
