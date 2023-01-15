@@ -1,11 +1,11 @@
 databases:
-  - name: budgetApp
-    databaseName: budgetApp 
-    user: tamana-Balkhi
+  - name: MyBudget
+    databaseName: budget_db 
+    user: mybudget_owner
 
 services:
   - type: web
-    name: budgetApp
+    name: MyBudget
     env: ruby
     buildCommand: "./bin/render-build.sh"
     startCommand: "bundle exec puma -C config/puma.rb"
@@ -13,7 +13,7 @@ services:
       - key: DATABASE_URLadd .
       
         fromDatabase:
-          name: budgetApp
+          name: MyBudget
           property: connectionString
       - key: RAILS_MASTER_KEY
         sync: false
