@@ -65,8 +65,6 @@
 
 ## 🚀 video <a name="live-demo"></a>
 
-
-
  [video](https://www.loom.com/share/3c1946d1a1af4810bba9f8cea160a331)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -176,10 +174,7 @@ Give a ⭐️ if you like this project!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- To all the collaborators for the Readme Template
-- The Microverse Team
+Original design idea by [Gregoire Vella on Behance](https://www.behance.net/gregoirevella)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
